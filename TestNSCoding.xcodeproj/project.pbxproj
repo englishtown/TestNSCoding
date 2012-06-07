@@ -22,6 +22,9 @@
 		A82D27851576035A00EA52D1 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D27841576035A00EA52D1 /* MyObject.m */; };
 		A82D27861576035A00EA52D1 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D27841576035A00EA52D1 /* MyObject.m */; };
 		A8909991157625BD008F1E40 /* MyObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A8909990157625BD008F1E40 /* MyObjects.m */; };
+		A8A1C80815808D740071E4ED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A8A1C80715808D740071E4ED /* README.md */; };
+		A8A1C80B15808DBC0071E4ED /* BaseCodingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A1C80A15808DBB0071E4ED /* BaseCodingModel.m */; };
+		A8A1C810158092940071E4ED /* MyObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = A8A1C80F158092940071E4ED /* MyObject2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,11 @@
 		A82D27841576035A00EA52D1 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyObject.m; path = TestNSCoding/MyObject.m; sourceTree = "<group>"; };
 		A890998F157625BD008F1E40 /* MyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObjects.h; sourceTree = "<group>"; };
 		A8909990157625BD008F1E40 /* MyObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObjects.m; sourceTree = "<group>"; };
+		A8A1C80715808D740071E4ED /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		A8A1C80915808DBB0071E4ED /* BaseCodingModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCodingModel.h; sourceTree = "<group>"; };
+		A8A1C80A15808DBB0071E4ED /* BaseCodingModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCodingModel.m; sourceTree = "<group>"; };
+		A8A1C80E158092940071E4ED /* MyObject2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject2.h; sourceTree = "<group>"; };
+		A8A1C80F158092940071E4ED /* MyObject2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +94,7 @@
 		A8160D3C1575F86D00B669B0 = {
 			isa = PBXGroup;
 			children = (
+				A8A1C80715808D740071E4ED /* README.md */,
 				A8A1C8061580897D0071E4ED /* Model */,
 				A8160D511575F86D00B669B0 /* TestNSCoding */,
 				A8160D721575F86E00B669B0 /* TestNSCodingTests */,
@@ -159,12 +168,32 @@
 		A8A1C8061580897D0071E4ED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A8A1C80C1580922C0071E4ED /* BasicNSCoding */,
+				A8A1C80D1580923F0071E4ED /* BaseModel */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A8A1C80C1580922C0071E4ED /* BasicNSCoding */ = {
+			isa = PBXGroup;
+			children = (
 				A890998F157625BD008F1E40 /* MyObjects.h */,
 				A8909990157625BD008F1E40 /* MyObjects.m */,
 				A82D27831576035A00EA52D1 /* MyObject.h */,
 				A82D27841576035A00EA52D1 /* MyObject.m */,
 			);
-			name = Model;
+			name = BasicNSCoding;
+			sourceTree = "<group>";
+		};
+		A8A1C80D1580923F0071E4ED /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1C80915808DBB0071E4ED /* BaseCodingModel.h */,
+				A8A1C80A15808DBB0071E4ED /* BaseCodingModel.m */,
+				A8A1C80E158092940071E4ED /* MyObject2.h */,
+				A8A1C80F158092940071E4ED /* MyObject2.m */,
+			);
+			name = BaseModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8160D771575F86E00B669B0 /* InfoPlist.strings in Resources */,
+				A8A1C80815808D740071E4ED /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +307,8 @@
 				A8160D5F1575F86D00B669B0 /* ViewController.m in Sources */,
 				A82D27851576035A00EA52D1 /* MyObject.m in Sources */,
 				A8909991157625BD008F1E40 /* MyObjects.m in Sources */,
+				A8A1C80B15808DBC0071E4ED /* BaseCodingModel.m in Sources */,
+				A8A1C810158092940071E4ED /* MyObject2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
