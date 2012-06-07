@@ -10,6 +10,7 @@
 
 #import "ViewController.h"
 
+
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -19,12 +20,11 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil];
-    } else {
-        self.viewController = [[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil];
-    }
-    self.window.rootViewController = self.viewController;
+    self.viewController = [[ViewController alloc] init];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+    navVC.navigationBarHidden = NO;
+    //self.window.rootViewController = [navVC.viewControllers objectAtIndex:0];
+    [self.window addSubview:navVC.view];
     [self.window makeKeyAndVisible];
     return YES;
 }

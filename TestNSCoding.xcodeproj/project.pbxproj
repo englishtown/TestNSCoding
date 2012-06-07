@@ -14,13 +14,14 @@
 		A8160D581575F86D00B669B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8160D571575F86D00B669B0 /* main.m */; };
 		A8160D5C1575F86D00B669B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8160D5B1575F86D00B669B0 /* AppDelegate.m */; };
 		A8160D5F1575F86D00B669B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8160D5E1575F86D00B669B0 /* ViewController.m */; };
-		A8160D621575F86D00B669B0 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8160D601575F86D00B669B0 /* ViewController_iPhone.xib */; };
-		A8160D651575F86E00B669B0 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8160D631575F86D00B669B0 /* ViewController_iPad.xib */; };
 		A8160D6D1575F86E00B669B0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8160D6C1575F86E00B669B0 /* SenTestingKit.framework */; };
 		A8160D6E1575F86E00B669B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8160D4B1575F86D00B669B0 /* UIKit.framework */; };
 		A8160D6F1575F86E00B669B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8160D4D1575F86D00B669B0 /* Foundation.framework */; };
 		A8160D771575F86E00B669B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A8160D751575F86E00B669B0 /* InfoPlist.strings */; };
 		A8160D7A1575F86E00B669B0 /* TestNSCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A8160D791575F86E00B669B0 /* TestNSCodingTests.m */; };
+		A82D27851576035A00EA52D1 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D27841576035A00EA52D1 /* MyObject.m */; };
+		A82D27861576035A00EA52D1 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A82D27841576035A00EA52D1 /* MyObject.m */; };
+		A8909991157625BD008F1E40 /* MyObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A8909990157625BD008F1E40 /* MyObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,24 @@
 		A8160D4B1575F86D00B669B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A8160D4D1575F86D00B669B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A8160D4F1575F86D00B669B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A8160D531575F86D00B669B0 /* TestNSCoding-Info.plist */ = {isa = PBXFileReference; path = "TestNSCoding-Info.plist"; sourceTree = "<group>"; };
+		A8160D531575F86D00B669B0 /* TestNSCoding-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNSCoding-Info.plist"; sourceTree = "<group>"; };
 		A8160D551575F86D00B669B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A8160D571575F86D00B669B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A8160D591575F86D00B669B0 /* TestNSCoding-Prefix.pch */ = {isa = PBXFileReference; path = "TestNSCoding-Prefix.pch"; sourceTree = "<group>"; };
-		A8160D5A1575F86D00B669B0 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8160D591575F86D00B669B0 /* TestNSCoding-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestNSCoding-Prefix.pch"; sourceTree = "<group>"; };
+		A8160D5A1575F86D00B669B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A8160D5B1575F86D00B669B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A8160D5D1575F86D00B669B0 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		A8160D5D1575F86D00B669B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A8160D5E1575F86D00B669B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A8160D611575F86D00B669B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		A8160D641575F86D00B669B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		A8160D6B1575F86E00B669B0 /* TestNSCodingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestNSCodingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8160D6C1575F86E00B669B0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		A8160D741575F86E00B669B0 /* TestNSCodingTests-Info.plist */ = {isa = PBXFileReference; path = "TestNSCodingTests-Info.plist"; sourceTree = "<group>"; };
+		A8160D741575F86E00B669B0 /* TestNSCodingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNSCodingTests-Info.plist"; sourceTree = "<group>"; };
 		A8160D761575F86E00B669B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A8160D781575F86E00B669B0 /* TestNSCodingTests.h */ = {isa = PBXFileReference; path = TestNSCodingTests.h; sourceTree = "<group>"; };
+		A8160D781575F86E00B669B0 /* TestNSCodingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestNSCodingTests.h; sourceTree = "<group>"; };
 		A8160D791575F86E00B669B0 /* TestNSCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNSCodingTests.m; sourceTree = "<group>"; };
+		A82D27831576035A00EA52D1 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyObject.h; path = TestNSCoding/MyObject.h; sourceTree = "<group>"; };
+		A82D27841576035A00EA52D1 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyObject.m; path = TestNSCoding/MyObject.m; sourceTree = "<group>"; };
+		A890998F157625BD008F1E40 /* MyObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObjects.h; sourceTree = "<group>"; };
+		A8909990157625BD008F1E40 /* MyObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObjects.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 		A8160D3C1575F86D00B669B0 = {
 			isa = PBXGroup;
 			children = (
+				A8A1C8061580897D0071E4ED /* Model */,
 				A8160D511575F86D00B669B0 /* TestNSCoding */,
 				A8160D721575F86E00B669B0 /* TestNSCodingTests */,
 				A8160D4A1575F86D00B669B0 /* Frameworks */,
@@ -117,8 +121,6 @@
 				A8160D5B1575F86D00B669B0 /* AppDelegate.m */,
 				A8160D5D1575F86D00B669B0 /* ViewController.h */,
 				A8160D5E1575F86D00B669B0 /* ViewController.m */,
-				A8160D601575F86D00B669B0 /* ViewController_iPhone.xib */,
-				A8160D631575F86D00B669B0 /* ViewController_iPad.xib */,
 				A8160D521575F86D00B669B0 /* Supporting Files */,
 			);
 			path = TestNSCoding;
@@ -152,6 +154,17 @@
 				A8160D751575F86E00B669B0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A8A1C8061580897D0071E4ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A890998F157625BD008F1E40 /* MyObjects.h */,
+				A8909990157625BD008F1E40 /* MyObjects.m */,
+				A82D27831576035A00EA52D1 /* MyObject.h */,
+				A82D27841576035A00EA52D1 /* MyObject.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,8 +238,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8160D561575F86D00B669B0 /* InfoPlist.strings in Resources */,
-				A8160D621575F86D00B669B0 /* ViewController_iPhone.xib in Resources */,
-				A8160D651575F86E00B669B0 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +275,8 @@
 				A8160D581575F86D00B669B0 /* main.m in Sources */,
 				A8160D5C1575F86D00B669B0 /* AppDelegate.m in Sources */,
 				A8160D5F1575F86D00B669B0 /* ViewController.m in Sources */,
+				A82D27851576035A00EA52D1 /* MyObject.m in Sources */,
+				A8909991157625BD008F1E40 /* MyObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8160D7A1575F86E00B669B0 /* TestNSCodingTests.m in Sources */,
+				A82D27861576035A00EA52D1 /* MyObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,22 +306,6 @@
 				A8160D551575F86D00B669B0 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		A8160D601575F86D00B669B0 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8160D611575F86D00B669B0 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		A8160D631575F86D00B669B0 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A8160D641575F86D00B669B0 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 		A8160D751575F86E00B669B0 /* InfoPlist.strings */ = {
@@ -443,6 +441,7 @@
 				A8160D7F1575F86E00B669B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A8160D801575F86E00B669B0 /* Build configuration list for PBXNativeTarget "TestNSCodingTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +450,7 @@
 				A8160D821575F86E00B669B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

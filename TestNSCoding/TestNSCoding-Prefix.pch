@@ -12,3 +12,7 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+
+#define IS_PAD() ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone ? NO : YES )
+#define FULLSCREEN IS_PAD()? CGRectMake(0, 0, 1024, 768): CGRectMake(0, 0, 480, 320)
